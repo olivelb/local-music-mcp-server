@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "music": {
+      "command": "C:\\Program Files\\nodejs\\node.exe",
+      "args": ["lm-studio-interface-minimal.js"],
+      "cwd": "D:/mcp-server/music-mcp-server",
+      "env": {
+        "NODE_ENV": "production",
+        "LOG_LEVEL": "error"
+      },
+      "timeout": 30000
+    }
+  }
+}

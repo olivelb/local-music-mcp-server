@@ -1,0 +1,21 @@
+{
+  "deviceName": "LS50-Wireless-II-557636bc8b09cd0d85547a57875b2f0d._googlecast._tcp.local",
+  "status": {
+    "mediaSessionId": 3,
+    "playbackRate": 1,
+    "playerState": "IDLE",
+    "currentTime": 0,
+    "volume": {
+      "level": 1,
+      "muted": false
+    },
+    "media": null,
+    "currentItemId": 5,
+    "loadingItemId": null,
+    "preloadedItemId": null,
+    "repeatMode": "REPEAT_OFF"
+  },
+  "lastSeen": 1757542369388,
+  "timestamp": 1757542369388,
+  "version": "1.0"
+}

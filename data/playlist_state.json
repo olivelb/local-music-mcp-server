@@ -1,0 +1,58 @@
+{
+  "current_playlist": {
+    "id": null,
+    "name": "Temporary Playlist",
+    "description": "Playing 2 selected tracks",
+    "created_at": "2025-09-08T23:36:35.535604",
+    "track_count": 2,
+    "total_duration": 379.95,
+    "total_duration_formatted": "06:19",
+    "tracks": [
+      {
+        "id": 44,
+        "title": "Transformer - 01 - Vicious",
+        "artist": "(1972).Lou.Reed.-.Transformer.[By!Pk!4Enkey].(Mp3.256Kbps)",
+        "album": "Lou Reed - Transformer - 01 - Vicious.Mp3",
+        "genre": "Unknown Genre",
+        "composer": "Unknown Composer",
+        "filepath": "K:\\Musique hall\\(1972).Lou.Reed.-.Transformer.[By!PK!4ENKEY].(mp3.256Kbps)\\Lou Reed - Transformer - 01 - Vicious.mp3",
+        "duration": 178.91,
+        "duration_formatted": "02:58",
+        "track_number": 0,
+        "year": 0,
+        "file_size": 5727504,
+        "last_modified": 1197381148.0,
+        "filename": "Lou Reed - Transformer - 01 - Vicious.mp3",
+        "exists": true,
+        "mood": "romantic",
+        "energy_level": 0.0,
+        "tempo": 0.0
+      },
+      {
+        "id": 45,
+        "title": "Transformer - 02 - Andy'S Chest",
+        "artist": "(1972).Lou.Reed.-.Transformer.[By!Pk!4Enkey].(Mp3.256Kbps)",
+        "album": "Lou Reed - Transformer - 02 - Andy'S Chest.Mp3",
+        "genre": "Unknown Genre",
+        "composer": "Unknown Composer",
+        "filepath": "K:\\Musique hall\\(1972).Lou.Reed.-.Transformer.[By!PK!4ENKEY].(mp3.256Kbps)\\Lou Reed - Transformer - 02 - Andy's Chest.mp3",
+        "duration": 201.04,
+        "duration_formatted": "03:21",
+        "track_number": 0,
+        "year": 0,
+        "file_size": 6435632,
+        "last_modified": 1197381148.0,
+        "filename": "Lou Reed - Transformer - 02 - Andy's Chest.mp3",
+        "exists": true,
+        "mood": "romantic",
+        "energy_level": 0.0,
+        "tempo": 0.0
+      }
+    ]
+  },
+  "current_position": 0,
+  "auto_advance_enabled": true,
+  "playback_mode": true,
+  "device_name": "Salon",
+  "timestamp": 1757367395.535888
+}

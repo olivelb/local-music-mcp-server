@@ -1,0 +1,39 @@
+{
+  "mediaSessionId": 12,
+  "playbackRate": 1,
+  "playerState": "PLAYING",
+  "currentTime": 0,
+  "supportedMediaCommands": 274447,
+  "volume": {
+    "level": 1,
+    "muted": false
+  },
+  "activeTrackIds": [],
+  "media": {
+    "contentId": "http://192.168.1.103:8765/stream/7733.mp3",
+    "contentType": "audio/mpeg",
+    "mediaCategory": "AUDIO",
+    "duration": 468.401625,
+    "streamType": "BUFFERED",
+    "tracks": [],
+    "breakClips": [],
+    "breaks": []
+  },
+  "currentItemId": 1,
+  "items": [
+    {
+      "itemId": 1,
+      "media": {
+        "contentId": "http://192.168.1.103:8765/stream/7733.mp3",
+        "contentType": "audio/mpeg",
+        "mediaCategory": "AUDIO",
+        "duration": 468.401625
+      },
+      "autoplay": true,
+      "activeTrackIds": [],
+      "orderId": 0
+    }
+  ],
+  "repeatMode": "REPEAT_OFF",
+  "updatedAt": "2025-09-09T12:55:53.581Z"
+}

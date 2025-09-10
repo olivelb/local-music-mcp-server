@@ -1,0 +1,48 @@
+{
+  "name": "music-mcp-server",
+  "version": "2.0.0",
+  "description": "Music MCP Server with Chromecast support for LM Studio integration",
+  "main": "lm-studio-interface-minimal.js",
+  "scripts": {
+    "start": "node persistent-music-server.js",
+    "start:interface": "node lm-studio-interface-minimal.js",
+    "dev": "NODE_ENV=development node persistent-music-server.js",
+    "scan": "node scripts/migrate.js",
+    "cleanup": "node scripts/cleanup.js"
+  },
+  "keywords": [
+    "music",
+    "chromecast",
+    "mcp",
+    "server",
+    "streaming",
+    "lm-studio",
+    "ai-assistant"
+  ],
+  "author": "Music MCP Server Team",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.2.0",
+    "castv2-client": "^1.2.0",
+    "chromecast-api": "^0.3.0",
+    "essentia.js": "^0.1.3",
+    "express": "^4.18.2",
+    "music-metadata": "^7.14.0",
+    "natural": "^6.12.0",
+    "sentiment": "^5.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-repo/music-mcp-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-repo/music-mcp-server/issues"
+  },
+  "homepage": "https://github.com/your-repo/music-mcp-server#readme"
+}
