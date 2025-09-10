@@ -13,8 +13,6 @@
  * - Queue management and playback control
  * - Comprehensive logging
  * 
- * @version 1.0.0
- * @author Music MCP Server
  */
 
 const Application = require('./src/index');
@@ -277,3 +275,4 @@ process.on('uncaughtException', (error) => {
 
 // Start the server
 server.start();
+
