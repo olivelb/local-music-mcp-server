@@ -12,8 +12,6 @@
  * - Comprehensive music tool support (21 tools)
  * - No timeout issues with LM Studio
  * 
- * @version 1.0.0
- * @author Music MCP Server
  */
 
 // Core dependencies
@@ -633,3 +631,4 @@ function main() {
 }
 
 main();
+
