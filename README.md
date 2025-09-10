@@ -26,7 +26,7 @@ Add to your LM Studio MCP configuration:
   "mcpServers": {
     "music": {
       "command": "C:\\Program Files\\nodejs\\node.exe",
-      "args": ["lm-studio-interface-minimal.js"],
+      "args": ["lm-studio.js"],
       "cwd": "D:/mcp-server/music-mcp-server",
       "env": {
         "NODE_ENV": "production",
@@ -43,6 +43,24 @@ Add to your LM Studio MCP configuration:
 2. **Find devices**: `list_chromecasts()`  
 3. **Search music**: `search_music({"query": "artist name"})`
 4. **Play tracks**: `play_multiple_tracks({"tracks": [1,2,3], "device_name": "device"})`
+
+## 🚀 Alternative: NPM Scripts
+
+You can also run the interface using npm scripts:
+
+```bash
+# Start LM Studio interface
+npm run lm-studio
+
+# Start persistent server
+npm run server
+
+# Start server in background
+npm run server:background
+
+# Development mode
+npm run dev
+```
 
 ## 🛠️ Available Tools
 
@@ -80,7 +98,7 @@ Add to your LM Studio MCP configuration:
 
 ```
 music-mcp-server/
-├── lm-studio-interface-minimal.js    # Main LM Studio interface
+├── lm-studio.js                      # Main LM Studio interface (renamed)
 ├── persistent-music-server.js        # Background music server
 ├── lm_studio_config_node.json       # LM Studio configuration
 ├── src/                              # Core application code
@@ -95,7 +113,7 @@ music-mcp-server/
 ## 🔧 Architecture
 
 ### Two-Component Design
-1. **lm-studio-interface-minimal.js** - Ultra-fast MCP interface for LM Studio
+1. **lm-studio.js** - Ultra-fast MCP interface for LM Studio (renamed for simplicity)
 2. **persistent-music-server.js** - Background server for music operations
 
 ### Why This Works

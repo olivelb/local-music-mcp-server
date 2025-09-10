@@ -2,11 +2,13 @@
   "name": "music-mcp-server",
   "version": "2.0.0",
   "description": "Music MCP Server with Chromecast support for LM Studio integration",
-  "main": "lm-studio-interface-minimal.js",
+  "main": "lm-studio.js",
   "scripts": {
-    "start": "node persistent-music-server.js",
-    "start:interface": "node lm-studio-interface-minimal.js",
-    "dev": "NODE_ENV=development node persistent-music-server.js",
+    "start": "node lm-studio.js",
+    "lm-studio": "node lm-studio.js",
+    "server": "node persistent-music-server.js",
+    "server:background": "start /B node persistent-music-server.js",
+    "dev": "NODE_ENV=development node lm-studio.js",
     "scan": "node scripts/migrate.js",
     "cleanup": "node scripts/cleanup.js"
   },

@@ -1,8 +1,8 @@
 {
   "mcpServers": {
     "music": {
-      "command": "C:\\Program Files\\nodejs\\node.exe",
-      "args": ["lm-studio.js"],
+      "command": "npm",
+      "args": ["run", "lm-studio"],
       "cwd": "D:/mcp-server/music-mcp-server",
       "env": {
         "NODE_ENV": "production",
