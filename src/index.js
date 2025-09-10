@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 /**
  * Music MCP Server - Main Entry Point
- * Refactored modular architecture following Node.js best practices
  */
 
 const path = require('path');
@@ -189,3 +188,4 @@ if (require.main === module) {
 }
 
 module.exports = Application;
+
